@@ -1,0 +1,32 @@
+// config file for "combination keys" script for pcsx2.
+// line that starts with "//" is a comment
+// it is ini-like. in "[]" brackets specify mod key.
+// after "[]" with mod key specify key mappping using ":"
+// pressing mod key changes the key to send to pcsx2 window.
+// no need to hold mod key, it works like switch
+// for example, normally you press "w" and script sends "w" to pcsx2
+// then you press "mod key" and then "w" and script sends "i" to pcsx2
+// example config:
+// [left shift]
+// w: VK_NUMPAD8
+// s: VK_NUMPAD5
+// a: VK_NUMPAD4
+// d: VK_NUMPAD6
+//
+// [left alt]
+// w: i
+// s: k
+// a: j
+// d: l
+
+[left shift]
+w: VK_NUMPAD8
+s: VK_NUMPAD5
+a: VK_NUMPAD4
+d: VK_NUMPAD6
+
+[left alt]
+w: i
+s: k
+a: j
+d: l
